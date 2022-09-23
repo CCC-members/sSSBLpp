@@ -180,7 +180,7 @@ indms_LCMV      = indms;
 T_LCMV          = T;
 data_LCMV       = data;
 
-% %% MLCMV
+%% MLCMV
 % disp('-->> Spectral MLCMV');
 % ismethod  = 4;
 % isparcel  = 0; % 0 (no smoothness) 1 (parcel smoothness)
