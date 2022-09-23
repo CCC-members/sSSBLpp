@@ -180,8 +180,8 @@ indms_LCMV      = indms;
 T_LCMV          = T;
 data_LCMV       = data;
 
-% %% MCMV
-% disp('-->> Spectral MCMV');
+% %% MLCMV
+% disp('-->> Spectral MLCMV');
 % ismethod  = 4;
 % isparcel  = 0; % 0 (no smoothness) 1 (parcel smoothness)
 % isneigh   = 0; % 0 (no neighbor structure) 1 (Laplacian neighbor structure)
@@ -189,11 +189,11 @@ data_LCMV       = data;
 % iscurv    = 0; % 0 (no compensation) 1 (giri curvature compensation) -1 (sulci curvature compensation)
 % 
 % [J,stat,indms,T,data]        = concurrency(sim_data,bands,ismethod,isparcel,isneigh,isfield,iscurv);
-% J_LCMV          = J;
-% stat_LCMV       = stat;
-% indms_LCMV      = indms;
-% T_LCMV          = T;
-% data_LCMV       = data;
+% J_MLCMV          = J;
+% stat_MLCMV       = stat;
+% indms_MLCMV      = indms;
+% T_MLCMV          = T;
+% data_MLCMV       = data;
 
 %% Band filtered time series
 restoredefaultpath

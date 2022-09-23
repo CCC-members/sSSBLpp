@@ -54,7 +54,7 @@ elseif ismethod > 1
         case 4
             count                 = 1;
             for gamma = gamma_grid
-                [T,T1,Wout]       = mkfilt_mcmv(L,Svv,10^gamma);
+                [T,T1,Wout]       = mkfilt_mlcmv(L,Svv,10^gamma);
                 T                 = T';
                 Txiv              = Ip - L*T;
                 gcv(count)        = (1/p)*sum(abs(diag(Txiv*Svv*Txiv')))/((1/p)*sum(abs(diag(Txiv))))^2;
